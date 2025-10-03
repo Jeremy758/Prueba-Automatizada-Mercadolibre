@@ -1,16 +1,14 @@
-# Prueba-Automatizada-Mercadolibre[README.md](https://github.com/user-attachments/files/22672186/README.md)
+# Prueba-Automatizada-Mercadolibre [README.md](https://github.com/user-attachments/files/22672186/README.md)
 # TEST DE JESUS EDUARDO REYES MARTINEZ
 
 # 🛠 Proyecto: Automatización de búsqueda en Mercado Libre
-
 Este proyecto automatiza, mediante **Selenium + Python**, una búsqueda en [Mercado Libre](https://www.mercadolibre.com), aplicando filtros y ordenando resultados.  
 Finalmente, genera un **reporte HTML con capturas de pantalla** y muestra en consola los primeros 5 productos encontrados con su nombre y precio.
 
 ---
-
 ## 📌 Requisitos previos
 
-Antes de ejecutar el proyecto asegúrate de tener instalado:
+Antes de ejecutar el proyecto es necesario tener instalado:
 
 1. **Python 3.10+** (recomendado 3.12 o 3.13)  
    [Descargar Python](https://www.python.org/downloads/)
@@ -33,7 +31,7 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 
 ```bash
        chromedriver --version
-       ```
+       ``
 
 4. Instalar dependencias de Python (desde la carpeta del proyecto):
 
@@ -43,33 +41,16 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 
 
 # 📌Ejecución
-
-
-
 \* Abre una terminal en la carpeta del proyecto:
-
-
-
 cd C:\\\\mercadolibre-proyecto
 
-
-
 \* Ejecuta el script:
-
-
-
 python test.py
 
 
 
 # ⚙️ Flujo automatizado del programa
-
-
-
 El script realiza los siguientes pasos de forma automática:
-
-
-
 1. Abre la página principal de Mercado Libre.
 2. Selecciona México como país.
 3. Cierra el banner de cookies (si aparece).
