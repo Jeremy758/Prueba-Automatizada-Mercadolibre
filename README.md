@@ -28,26 +28,17 @@ Antes de ejecutar el proyecto es necesario tener instalado:
        * ✅ Importante: no pongas el `.exe`, solo la carpeta.
 
      * Verifica la instalación abriendo CMD y ejecutando:
-
-```bash
-       chromedriver --version
-       ``
-
+         bash       chromedriver --version
+    
 4. Instalar dependencias de Python (desde la carpeta del proyecto):
-
-```bash
-   pip install selenium
-
-
+bash   pip install selenium
 
 # 📌Ejecución
 \* Abre una terminal en la carpeta del proyecto:
-cd C:\\\\mercadolibre-proyecto
+cd C:\mercadolibre-proyecto
 
 \* Ejecuta el script:
 python test.py
-
-
 
 # ⚙️ Flujo automatizado del programa
 El script realiza los siguientes pasos de forma automática:
